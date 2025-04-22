@@ -7,6 +7,5 @@ requires-python = ">=3.11"
 dependencies = []
 
 [tool.poetry]
-packages = [
-    { include = "data_cleaner" }
-]
+package-mode = false
+
