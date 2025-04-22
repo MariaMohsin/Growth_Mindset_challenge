@@ -1,7 +1,12 @@
 [project]
 name = "data-cleaner"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Streamlit app for the Growth Mindset Challenge"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
+
+[tool.poetry]
+packages = [
+    { include = "data_cleaner" }
+]
